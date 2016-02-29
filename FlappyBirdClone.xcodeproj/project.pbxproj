@@ -15,6 +15,7 @@
 		25954FB41C83CAAB0090C15B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25954FB31C83CAAB0090C15B /* SpriteKit.framework */; };
 		25954FB61C83D26C0090C15B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25954FB51C83D26C0090C15B /* GameScene.swift */; };
 		25954FB81C8475FB0090C15B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25954FB71C8475FB0090C15B /* iAd.framework */; };
+		25954FC01C848A090090C15B /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25954FBF1C848A090090C15B /* coin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		25954FB31C83CAAB0090C15B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		25954FB51C83D26C0090C15B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		25954FB71C8475FB0090C15B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		25954FBF1C848A090090C15B /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = coin.mp3; path = ../../../../Downloads/FlappyBirdImage/coin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				25954FA11C83CA490090C15B /* AppDelegate.swift */,
+				25954FBF1C848A090090C15B /* coin.mp3 */,
 				25954FA31C83CA490090C15B /* ViewController.swift */,
 				25954FA51C83CA490090C15B /* Main.storyboard */,
 				25954FA81C83CA490090C15B /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 				25954FAC1C83CA490090C15B /* LaunchScreen.storyboard in Resources */,
 				25954FA91C83CA490090C15B /* Assets.xcassets in Resources */,
 				25954FA71C83CA490090C15B /* Main.storyboard in Resources */,
+				25954FC01C848A090090C15B /* coin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
