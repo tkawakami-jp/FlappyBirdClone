@@ -12,6 +12,9 @@
 		25954FA71C83CA490090C15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25954FA51C83CA490090C15B /* Main.storyboard */; };
 		25954FA91C83CA490090C15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25954FA81C83CA490090C15B /* Assets.xcassets */; };
 		25954FAC1C83CA490090C15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25954FAA1C83CA490090C15B /* LaunchScreen.storyboard */; };
+		25954FB41C83CAAB0090C15B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25954FB31C83CAAB0090C15B /* SpriteKit.framework */; };
+		25954FB61C83D26C0090C15B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25954FB51C83D26C0090C15B /* GameScene.swift */; };
+		25954FB81C8475FB0090C15B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25954FB71C8475FB0090C15B /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		25954FA81C83CA490090C15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25954FAB1C83CA490090C15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25954FAD1C83CA490090C15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25954FB31C83CAAB0090C15B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		25954FB51C83D26C0090C15B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		25954FB71C8475FB0090C15B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25954FB81C8475FB0090C15B /* iAd.framework in Frameworks */,
+				25954FB41C83CAAB0090C15B /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +46,8 @@
 		25954F951C83CA490090C15B = {
 			isa = PBXGroup;
 			children = (
+				25954FB71C8475FB0090C15B /* iAd.framework */,
+				25954FB31C83CAAB0090C15B /* SpriteKit.framework */,
 				25954FA01C83CA490090C15B /* FlappyBirdClone */,
 				25954F9F1C83CA490090C15B /* Products */,
 			);
@@ -58,6 +68,7 @@
 				25954FA31C83CA490090C15B /* ViewController.swift */,
 				25954FA51C83CA490090C15B /* Main.storyboard */,
 				25954FA81C83CA490090C15B /* Assets.xcassets */,
+				25954FB51C83D26C0090C15B /* GameScene.swift */,
 				25954FAA1C83CA490090C15B /* LaunchScreen.storyboard */,
 				25954FAD1C83CA490090C15B /* Info.plist */,
 			);
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25954FB61C83D26C0090C15B /* GameScene.swift in Sources */,
 				25954FA41C83CA490090C15B /* ViewController.swift in Sources */,
 				25954FA21C83CA490090C15B /* AppDelegate.swift in Sources */,
 			);
