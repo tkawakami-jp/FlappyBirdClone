@@ -88,7 +88,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             contact.bodyA.node!.removeFromParent()
             runAction(sound)
             coin++
-            coinLabelNode.text = "Coin:\(score)"
+            coinLabelNode.text = "Coin:\(coin)"
             
             // ベストスコア更新か確認する
             var bestCoin = userDefaults.integerForKey("BESTCOIN")
